@@ -28,11 +28,12 @@ disp(result_1b)
 
 // Mesure du temps en focntion de la taille 
 
+size_tab=[2:1:41]
 
 //math3B
 tab_res_1=[]
 
-for i= 10:10:400
+for i= 2:1:40
     tmp=0
     for j=1:1:10
         A=rand(i,i)
@@ -48,7 +49,7 @@ end
 //math3B
 tab_res_2=[]
 
-for i= 10:10:400
+for i= 2:1:40
     tmp=0
     for j=1:1:10
         A=rand(i,i)
@@ -64,7 +65,7 @@ end
 //math3B
 tab_res_3=[]
 
-for i= 10:10:400
+for i= 2:1:40
     tmp=0
     for j=1:1:10
         A=rand(i,i)
