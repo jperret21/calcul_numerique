@@ -46,7 +46,7 @@ for i= 2:1:40
     tab_res_1(i)=tmp/10
 end
 
-//math3B
+//math2B
 tab_res_2=[]
 
 for i= 2:1:40
@@ -62,7 +62,7 @@ for i= 2:1:40
     tab_res_2(i)=tmp/10
 end
 
-//math3B
+//math1B
 tab_res_3=[]
 
 for i= 2:1:40
@@ -80,3 +80,4 @@ end
 
 
 plot(size_tab,tab_res_3,size_tab,tab_res_2,size_tab,tab_res_1)
+hl=legend(['1 boucle';'2 boucle';'3 boucle';])
