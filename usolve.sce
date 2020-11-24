@@ -44,7 +44,7 @@ disp("x  uslove:", x_u)
 //-----Validation des calculs---------------//
 
 frelres=norm(x_u-xex)/norm(xex) //erreur avant
-brelres= norm(b-A*x)/norm(b)    // erreur arriere
+brelres= norm(b-A*x_u)/norm(b)    // erreur arriere
   
 capa=cond(A)
 born=capa*brelres
